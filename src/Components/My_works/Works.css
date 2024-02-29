@@ -1,0 +1,49 @@
+#work{
+    width: 100vw;
+    max-width: 65rem;
+    min-width: 200px;
+    
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.work-title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.work-desc{
+    font-size: 1.5rem;
+    font-weight: 200;
+    max-width: 46rem;
+    padding: .4rem;
+    margin-bottom: 1.5rem;
+
+}
+.work-box{
+    
+    width: 100vw;
+    max-width: 80%; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,auto));
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto; 
+}
+.work-box img{
+    width: 100%;
+    height: 220px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.btn3{
+    margin-top: 1rem;
+   
+}
